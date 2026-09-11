@@ -1,0 +1,18 @@
+name: binance_signal_app
+description: تطبيق إشارات تداول للعملات الرقمية متصل ببيانات Binance.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  web_socket_channel: ^3.0.3
+
+flutter:
+  uses-material-design: true
